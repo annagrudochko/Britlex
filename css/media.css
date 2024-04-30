@@ -1,0 +1,950 @@
+@media screen and (max-width: 1440px) {
+    .conteiner {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar_flex-ul {
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .conteiner {
+        max-width: 930px;
+    }
+
+    .navbar_flex {
+        padding-top: 30px;
+    }
+    .navbar_flex-img img {
+        width: 89px;
+    }
+    .navbar_flex-ul {
+        font-size: 16px;
+        margin-right: 50px;
+    }
+    .navbar_flex-ul a {
+        padding: 10px 15px;
+    }
+    .navbar_flex-ul a:hover {
+        padding: 10px 15px;
+    }
+    .navbar_flex-btn {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .navbar_flex-img {
+        transform: scale(0.9);
+    }
+
+    .header-left-item img {
+        transform: scale(0.7);
+        padding-top: 0;
+    }
+    .header-left-item {
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .header-h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .header-p {
+        font-size: 20px;
+    }
+    .header-btn {
+        width: 298px;
+        max-height: 80px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+    .header-right img {
+        max-width: 460px;
+    }
+
+    .skills {
+        padding-top: 50px;
+        margin-bottom: 100px;
+    }
+    .scills-h2 {
+        font-size: 36px;
+        line-height: 80px;
+        margin-bottom: 50px;
+    }
+    .skills_grid-item {
+        padding: 0 10px 20px;
+    }
+    .skills_grid-img img {
+        max-width: 100%;
+    }
+    .writing img {
+        max-width: 80%;
+    }
+    .skills_grid-content {
+        padding-left: 20px;
+    }
+    .skills_grid-h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .listening h3 {
+        padding-top: 15px;
+    }
+    .skills_grid-p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .skills_grid-btm {
+        width: 196px;
+        height: 57px;
+    }
+
+    .about {
+        margin-bottom: 100px;
+    }
+    .about_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .about_flex-left {
+        max-width: 530px;
+        width: 100%;
+    }
+    .about-h2 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .about-p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .about_flex-inner {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .about_flex-item {
+        margin-right: 60px;
+    }
+    .about-h4 {
+        font-size: 30px;
+    }
+    .about-item-p {
+        font-size: 16px;
+    }
+    .about_flex-right img {
+        max-width: 336px;
+    }
+ 
+    .pricing {
+        margin-bottom: 140px;
+    }
+    .pricing-h2 {
+        font-size: 36px;
+        margin: 0 auto 20px;
+    }
+    .pricing_flex-item {
+        max-width: 280px;
+    }
+    .pricing-img {
+        max-height: 250px;
+    }
+    .pricing-content {
+    }
+    .pricing-h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .pricing-p {
+        font-size: 16px;
+    }
+    .pricing-btn {
+        width: 205px;
+        height: 45px;
+    }
+    .pricing-btn-01 {
+        font-size: 16px;
+    }
+    .pricing-btn p {
+        font-size: 24px;
+    }
+
+    .contact {
+        margin-bottom: 30px;
+    }
+    .contact_grid {
+        align-items: start;
+    }
+    .contact_grid-h2 {
+        font-size: 36px;
+    }
+    .contact_grid-img img {
+        width: 312px;
+    }
+    .contact_grid-text {
+    }
+    .contact_grid-text p {
+        font-size: 16px;
+    }
+    .contact_grid-form {
+        padding-bottom: 60px;
+    }
+    .contact_grid-form input {
+        width: 323px;
+        height: 60px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+    input[placeholder] {
+        font-size: 14px;
+    }
+    .contact_grid-form button {
+        width: 193px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .footer_flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .footer_flex a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .conteiner {
+        max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header_flex {
+        padding-top: 30px;
+    }
+    .header-left-item img {
+        padding-top: 0;
+    }
+    .header-h1 {
+        font-size: 36px;
+        line-height: 45px;
+        width: 217px;
+        margin-bottom: 25px;
+    }
+    .header-p {
+        font-size: 16px;
+        max-width: 340px;
+        margin-bottom: 30px;
+    }
+    .header-btn {
+        width: 236px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .header-right img {
+        max-width: 350px;
+        padding-top: 30px;
+    }
+
+    .skills {
+        padding-top: 50px;
+        margin-bottom: 70px;
+    }
+    .scills-h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .skills_grid-item {
+        padding: 0 0 20px;
+    }
+    .skills_grid-img img {
+        max-width: 100%;
+    }
+    .writing img {
+        max-width: 80%;
+    }
+    .skills_grid-content {
+        padding-left: 20px;
+    }
+    .skills_grid-h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .listening h3 {
+        padding-top: 15px;
+    }
+    .skills_grid-p {
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        max-width: 197px;
+    }
+    .writing p {
+        max-width: 185px;
+    }
+    .reading p {
+        max-width: 180px;
+    }
+    .skills_grid-btm {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .about {
+        margin-bottom: 100px;
+    }
+    .about_flex-left {
+        max-width: 321px;
+        width: 100%;
+    }
+    .about-h2 {
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+    .about-p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    .about_flex-inner {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .about_flex-item {
+        margin-right: 30px;
+        width: 65px;
+    }
+    .about_flex-item:last-child {
+        margin-right: 0;
+        width: 130px;
+    }
+    .about-h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .about-item-p {
+        font-size: 13px;
+    }
+    .about_flex-right img {
+        width: 295px;
+        margin-bottom: 30px;
+    }
+
+    .pricing {
+        margin-bottom: 60px;
+    }
+    .pricing-h2 {
+        font-size: 30px;
+        margin: 0 auto 20px;
+    }
+    .pricing_flex-item {
+        max-width: 219px;
+        gap: 0;
+    }
+    .pricing-img {
+        max-height: 210px;
+    }
+    .pricing-h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        max-width: 174px;
+    }
+    .pricing-h4_lc {
+        max-width: 112px;
+    }
+    .pricing-p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .pricing-btn {
+        width: 205px;
+        height: 45px;
+    }
+    .pricing-btn-01 {
+        font-size: 16px;
+    }
+    .pricing-btn p {
+        font-size: 22px;
+    }
+
+    .contact {
+        margin-bottom: 30px;
+    }
+    .contact_grid {
+        align-items: start;
+    }
+    .contact_grid-title {
+    }
+    .contact_grid-h2 {
+        font-size: 30px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .contact_grid-img img {
+        width: 230px;
+    }
+    .contact_grid-text {
+    }
+    .contact_grid-text p {
+        font-size: 14px;
+        max-width: 387px;
+        padding-left: 10px;
+        margin-bottom: 26px;
+    }
+    .contact_grid-form {
+        padding-bottom: 60px;
+        padding-left: 10px;
+    }
+    .contact_grid-form input {
+        width: 283px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    input[placeholder] {
+        font-size: 12px;
+    }
+    .contact_grid-form button {
+        width: 145px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+        /* mobile_menu_1 */
+    .mobile_sidnav {
+        display: block;
+    }
+    .mobile_sidnav-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+    .user-view {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .sidenav {
+        padding-top: 30px;
+    }
+    .sidenav a {
+        text-decoration: none;
+    }
+    .sidenav_menu_button {
+        font-family: "Poppins", sans-serif;
+        width: 210px;
+        height: 60px;
+        color: #000;
+        border: 2px solid #263238;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.3s all;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .sidenav_menu_button:hover {
+        background-color: #263238;
+        color: #fff;
+    }
+    .sidnav_logo {
+        scale: 0.85;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .conteiner {
+        max-width: 510px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sidenav {
+        width: 100%;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+    .header_flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 0;
+    }
+    .header-left-item img {
+        display: none;
+    }
+    .header-right img {
+        padding-top: 0;
+        max-width: 424px;
+        padding-top: 35px;
+    }
+    .header-left {
+        width: 100%;
+    }
+    .br_h1 {
+        display: none;
+    }
+    .header-left-item {
+        max-width: 510px;
+        width: 100%;
+    }
+    .header-h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 34px;
+        width: 100%;
+        padding-top: 9px;
+        margin-bottom: 27px;
+    }
+    .header-p {
+        font-size: 16px;
+        max-width: 510px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 36px;
+    }
+    .header-btn {
+        display: block;
+        margin: 0 auto;
+        width: 305px;
+        height: 75px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .skills {
+        padding-top: 95px;
+        margin-bottom: 140px;
+    }
+    .scills-h2 {
+        margin-bottom: 35px;
+    }
+    .skills_grid {
+        gap: 20px;
+        grid-template-areas:
+            "one two"
+            "three four";
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .listening {
+        flex-direction: column;
+    }
+    .listening .skills_grid-img {
+        order: 0;
+    }
+    .writing img {
+        max-width: 100%;
+    }
+    .skills_grid-img {
+        height: 200px;
+        width: 80%;
+    }
+    .skills_grid-p {
+        min-height: 190px;
+        font-size: 12px;
+        max-width: 190px;
+        line-height: 15px;
+    }
+    .listening h3 {
+        padding-top: 0;
+    }
+    .skills_grid-btm {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .about {
+        margin-bottom: 118px;
+    }
+    .about-h2 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto 35px;
+    }
+    .about_flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .about_flex-right img {
+        width: 350px;
+    }
+    .about_flex-left {
+        max-width: 100%;
+    }
+    .about-p {
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .about_flex-inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about_flex-item:last-child {
+        margin-right: 0;
+        width: 140px;
+    }
+    .about-h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .about-item-p {
+        font-size: 14px;
+    }
+
+    .pricing {
+        margin-bottom: 150px;
+    }
+    .pricing_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-h2 {
+        font-size: 30px;
+        margin: 0 auto 45px;
+    }
+    .pricing-img {
+        max-height: 290px;
+        padding-top: 50px;
+    }
+    .pricing-img img {
+        width: 290px;
+    }
+    .pricing_flex-item {
+        max-width: 100%;
+    }
+    .pricing-h4 {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 300px;
+        min-height: 30px;
+        padding-top: 50px;
+        margin-bottom: 18px;
+    }
+    .pricing-p {
+        font-size: 14px;
+        max-width: 390px;
+        text-align: center;
+        margin: 0 auto;
+        min-height: 50px;
+        margin-bottom: 25px;
+    }
+    .pricing-btn {
+        width: 205px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    .pricing-btn-01 {
+        font-size: 16px;
+    }
+    .pricing-btn p {
+        font-size: 22px;
+    }
+
+    .contact {
+        margin-bottom: 130px;
+    }
+    .contact_grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four";
+        justify-content: center;
+        max-width: 500px;
+        width: 100%;
+    }
+    .contact_grid-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contact_grid-h2 {
+        margin-bottom: 90px;
+    }
+    .contact_grid-img {
+        display: block;
+        margin: 0 auto;
+    }
+    .contact_grid-img img {
+        width: 358px;
+        margin-bottom: 40px;
+    }
+    .contact_grid-text p {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto 60px;
+        max-width: 500px;
+        padding: 0;
+    }
+    .contact_grid-form {
+        padding-bottom: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    .contact_grid-form input {
+        max-width: 318px;
+        width: 100%;
+        height: 60px;
+        margin-right: 0;
+    }
+    input[placeholder] {
+        font-size: 13px;
+    }
+    .contact_grid-form button {
+        max-width: 193px;
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .footer_flex {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .footer_flex img {
+        width: 89px;
+    }
+    .footer_flex a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .conteiner {
+        max-width: 290px;
+        padding: 0;
+    }
+    .navbar_flex-img img {
+        width: 71px;
+    }
+    .header-right img {
+        max-width: 290px;
+    }
+    .br_h1_320 {
+        display: block;
+    }
+    .header-h1 {
+        font-size: 24px;
+        line-height: 36px;
+        
+        padding-top: 28px;
+        margin-bottom: 20px;
+    }
+    .header-p {
+        font-size: 14px;
+        letter-spacing: -0.01em;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .header-btn {
+        width: 289px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .skills {
+        padding-top: 50px;
+        margin-bottom: 85px;
+    }
+    .scills-h2 {
+        font-size: 24px;
+        /* margin-bottom: 35px; */
+    }
+    .skills_grid {
+        gap: 20px;
+        grid-template-areas:
+            "one "
+            "two"
+            "three"
+            "four";
+    }
+    .skills_grid-item {
+        padding: 0 0 40px;
+    }
+    .skills_grid-img img {
+        padding-top: 20px;
+    }
+    .skills_grid-h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-top: 55px;
+    }
+    .skills_grid-p {
+        font-size: 13px;
+        line-height: 19px;
+        max-width: 258px;
+        width: 100%;
+        min-height: 70px;
+        margin-bottom: 30px;
+    }
+    .writing p {
+        max-width: 258px;
+    }
+    .reading p {
+        max-width: 258px;
+    }
+    .skills_speaking_p {
+        display: none;
+    }
+
+    .skills_grid-btm {
+        width: 178px;
+        height: 50px;
+    }
+    
+    .about {
+        margin-bottom: 65px;
+    }
+    .about-h2 {
+        font-size: 24px;
+        margin: 0 auto 45px;
+    }
+    .about_flex-right img {
+        width: 283px;
+        margin-bottom: 19px;
+    }
+    .about-p {
+        font-size: 13px;
+        letter-spacing: -0.01em;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .about_flex-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .about_flex-item {
+        margin-right: 0;
+    }
+    .about-h4 {
+        margin-bottom: 3px;
+    }
+    .about-item-p {
+        font-size: 13px;
+        margin-bottom: 45px;
+    }
+
+    .pricing {
+        margin-bottom: 98px;
+    }
+    .pricing_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-h2 {
+        font-size: 24px;
+        margin: 0 auto 40px;
+    }
+    .pricing-img {
+        max-height: 257px;
+        padding-top: 50px;
+    }
+    .pricing-img img {
+        width: 250px;
+    }
+    .pricing-h4 {
+        font-size: 18px;
+    }
+    .pricing-p {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    .pricing-btn {
+        width: 170px;
+        height: 37px;
+    }
+    .pricing-btn-01 {
+        font-size: 14px;
+    }
+    .pricing-btn p {
+        font-size: 18px;
+    }
+
+    .contact {
+        margin-bottom: 60px;
+    }
+    .contact_grid-h2 {
+        margin-bottom: 55px;
+        font-size: 24px;
+    }
+    .contact_grid-img img {
+        width: 253px;
+        margin-bottom: 37px;
+    }
+    .contact_grid-text p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .contact_grid-form {
+        padding-bottom: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    .contact_grid-form form {
+        flex-direction: column;
+    }
+    .contact_grid-form input {
+        max-width: 290px;
+        width: 100%;
+        height: 50px;
+    }
+    input[placeholder] {
+        font-size: 12px;
+    }
+    .contact_grid-form button {
+        max-width: 290px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    .footer_flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 33px;
+    }
+    .footer_flex img {
+        width: 71px;
+    }
+    .footer_flex a {
+        font-size: 11px;
+    }
+    .footer_ul a:nth-child(1) {
+        margin-right: 0;
+    }
+    .footer_ul a:nth-child(2) {
+        margin-right: 0;
+    }
+}
